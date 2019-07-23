@@ -72,7 +72,18 @@
             </plugin>            
         </plugins>
     </build>
-
+	
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://localhost:8091:http://localhost:8081/repository/maven-snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus</id>
+            <url>http://localhost:8091:http://localhost:8081/repository/maven-releases</url>
+        </repository>
+    </distributionManagement>
+	
     <dependencies>
         <dependency>
 		<groupId>com.h2database</groupId>

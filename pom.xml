@@ -250,6 +250,12 @@
             <version>${org.springframework.version}</version>
             <type>jar</type>
         </dependency>
+  
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context-support</artifactId>
+      <version>4.2.9.RELEASE</version>
+    </dependency>
 
         <dependency>
             <groupId>org.springframework.security</groupId>
@@ -339,7 +345,12 @@
             <version>1.7.7</version>
             <type>jar</type>
         </dependency>
-
+    <dependency>
+      <groupId>com.adobe.xmp</groupId>
+      <artifactId>xmpcore</artifactId>
+      <version>5.1.0</version>
+    </dependency>
+	    
         <!-- ************* END spring MVC and related dependencies ************** -->
 
     </dependencies>

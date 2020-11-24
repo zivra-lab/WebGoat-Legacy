@@ -20,6 +20,12 @@
       "type": "shell",
       "command": "mvn -B clean install",
       "group": "build"
+    },
+    {
+      "label": "purge",
+      "type": "shell",
+      "command": "mvn dependency:purge-local-repository clean package",
+      "group": "build"
     }
   ]
 }

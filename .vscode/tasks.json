@@ -19,7 +19,7 @@
       "label": "build",
       "type": "shell",
       "command": "mvn -B clean install",
-      "group": "build "
+      "group": "build"
     }
   ]
 }

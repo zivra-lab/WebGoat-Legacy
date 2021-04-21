@@ -75,11 +75,11 @@
 	
     <distributionManagement>
         <snapshotRepository>
-            <id>nexus</id>
+            <id>nexus-snapshots</id>
             <url>https://nexus.james.lab.zivra.com/repository/maven-snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>nexus</id>
+            <id>nexus-releases</id>
             <url>https://nexus.james.lab.zivra.com/repository/maven-releases</url>
         </repository>
     </distributionManagement>
